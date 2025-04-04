@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@ui-kit/react'
+import { Box, BoxProps, Text } from '@ui-kit/react'
 
 export default {
   title: 'Surfaces/box',
@@ -9,7 +9,7 @@ export default {
   args: {
     children: (
       <>
-        <span>Componente de box</span>
+        <Text>Componente de box</Text>
       </>
     )
   }
