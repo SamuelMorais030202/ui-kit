@@ -7,7 +7,30 @@ export default {
   tags: ['autodocs'],
 
   args: {
-    children: 'Example text'
+    children: 'Example text',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   }
 } as Meta<TextProps>
 

@@ -12,7 +12,7 @@ export default {
         <Text>Componente de box</Text>
       </>
     )
-  }
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {
